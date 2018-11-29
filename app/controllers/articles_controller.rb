@@ -72,3 +72,4 @@ class ArticlesController < ApplicationController
       params.require(:article).permit(:title, :author, :body)
     end
 end
+
